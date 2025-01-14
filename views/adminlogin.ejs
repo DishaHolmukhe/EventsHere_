@@ -1,0 +1,17 @@
+<%-include("partials/header.ejs") %>
+<div class="admin-login">
+  <h2>Hello Admin!</h2>
+  <form action="/adminlogin" method="post"> 
+    <div class="form-group">
+      <label for="username">Admin Name</label>
+      <input type="text" class="form-control" name="username">
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" class="form-control" name="password">
+    </div>
+    <button type="submit" class="btn btn-dark">Register</button>
+  </form>
+</div>
+
+<%-include("partials/footer.ejs") %>
